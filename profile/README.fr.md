@@ -1,6 +1,15 @@
-# NorminUp
+<p align="center">
+  <a href="https://norminup.fr"><img src="banner.svg" alt="NorminUp, surveillance de disponibilité et pages de statut, depuis la France" width="100%"></a>
+</p>
 
-[English version](README.md)
+<p align="center">
+  <a href="https://status.norminup.fr"><img src="https://api.norminup.fr/api/widgets/19/badge.svg?label=API" alt="Statut de l'API"></a>
+  <a href="https://status.norminup.fr"><img src="https://api.norminup.fr/api/widgets/18/badge.svg?label=Site" alt="Statut du site"></a>
+  <img src="https://img.shields.io/badge/vérifications_depuis-la_France-10b981?style=flat" alt="Vérifications depuis la France">
+  <img src="https://img.shields.io/badge/offre_gratuite-disponible-10b981?style=flat" alt="Offre gratuite disponible">
+</p>
+
+<p align="center"><a href="README.md">English version</a></p>
 
 **Surveillance de disponibilité et pages de statut, depuis la France.**
 

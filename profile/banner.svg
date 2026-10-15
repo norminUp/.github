@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="NorminUp, uptime monitoring and status pages">
+	<rect width="1280" height="300" rx="16" fill="#111315"/>
+	<rect x="0.5" y="0.5" width="1279" height="299" rx="16" fill="none" stroke="#24282b"/>
+	<g transform="translate(110 12) scale(0.27)">
+		<path fill="#10b981" d="M298 300H358L440 432L410 487L358 403V653L455 470L512 582L670 325L622 305L763 232V390L718 355L510 682L455 578L353 793H298Z"/>
+		<path fill="#4a4e52" d="M668 490L727 398V793H663L565 652L598 602L668 700Z"/>
+	</g>
+	<text x="400" y="148" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#f4f4f5">NorminUp</text>
+	<text x="402" y="196" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" fill="#a1a1aa">Uptime monitoring and status pages, run from France.</text>
+	<path d="M402 236H760L776 214L792 254L808 226L820 236H1184" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

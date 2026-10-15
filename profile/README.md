@@ -1,8 +1,15 @@
-# NorminUp
+<p align="center">
+  <a href="https://norminup.fr"><img src="banner.svg" alt="NorminUp, uptime monitoring and status pages, run from France" width="100%"></a>
+</p>
 
-[Version française](README.fr.md)
+<p align="center">
+  <a href="https://status.norminup.fr"><img src="https://api.norminup.fr/api/widgets/19/badge.svg?label=API" alt="API status"></a>
+  <a href="https://status.norminup.fr"><img src="https://api.norminup.fr/api/widgets/18/badge.svg?label=Website" alt="Website status"></a>
+  <img src="https://img.shields.io/badge/checks_from-France-10b981?style=flat" alt="Checks from France">
+  <img src="https://img.shields.io/badge/free_plan-available-10b981?style=flat" alt="Free plan available">
+</p>
 
-**Uptime monitoring and status pages, run from France.**
+<p align="center"><a href="README.fr.md">Version française</a></p>
 
 NorminUp checks your websites, APIs and services around the clock, alerts you the moment something breaks,
 and gives your users a public status page so they know what is going on.
