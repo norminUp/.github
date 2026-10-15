@@ -1,57 +1,40 @@
-# NorminUp — Plateforme de Monitoring SaaS Nouvelle Génération
+# NorminUp
 
-[English Version](README.md)
+[English version](README.md)
 
-![NorminUp Banner](https://img.shields.io/badge/NorminUp-v1.1.0-10B981?style=for-the-badge&logo=activity)
-![Status](https://img.shields.io/badge/Status-Operational-10B981?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Proprietary-blue?style=for-the-badge)
+**Surveillance de disponibilité et pages de statut, depuis la France.**
 
-**NorminUp** est une solution de monitoring SaaS haut de gamme conçue pour offrir une visibilité totale et une résilience distribuée. Alliant une esthétique de pointe (**Glassmorphism**) à une intelligence de diagnostic industrielle, NorminUp permet aux entreprises de sécuriser leurs infrastructures critiques avec une précision chirurgicale.
+NorminUp vérifie vos sites, vos API et vos services jour et nuit, vous alerte dès que quelque chose casse,
+et donne à vos utilisateurs une page de statut publique pour qu'ils sachent ce qui se passe.
 
----
-
-## 1. L'Expérience Visuelle & UX
-NorminUp redéfinit l'interface de monitoring avec un design **Dark Mode** natif et une fluidité exceptionnelle.
-*   **Identité Glassmorphism** : Cartes dépolies, flous d'arrière-plan et bordures ultra-fines pour une interface moderne et non dispersive.
-- **Status Widgets** : Widgets dynamiques intégrables pour afficher l'état de vos services directement sur votre site client.
-- **Animations Comportementales** : Micro-interactions fluides et pulsations radar pour un feedback temps-réel immersif.
+**[norminup.fr](https://norminup.fr)** · Offre gratuite disponible.
 
 ---
 
-## 2. Monitoring Multimodal & Protocoles
-Au-delà du simple "ping", NorminUp supervise plus de **11 types de protocoles** :
-- **Web & API** : HTTP/S (GET/POST), WebSocket (WSS), Heartbeats.
-- **Réseau & DNS** : TCP, ICMP (Ping), DNS (Propagation), Domain (Whois/Expiration).
-- **Services Métiers** : Discord Bots (Présence), Docker (Runtime), Databases (MySQL/Redis), Payment Gateways.
-- **Rapid-Fire Verification** : Filtrage intelligent des "blips" réseau par des reprises incrémentales avant confirmation d'alerte.
+### Ce qui est surveillé
+
+| | |
+|---|---|
+| **Web** | HTTP / HTTPS, recherche de mot-clé, redirections, certificats SSL et leur expiration |
+| **Réseau** | TCP, UDP, ICMP (ping), DNS, expiration de domaine |
+| **Temps réel** | WebSocket, gRPC, heartbeats (tâches cron et tâches planifiées) |
+| **Services** | SMTP, IMAP, MySQL / MariaDB, Redis, conteneurs Docker, bots Discord |
+
+### Ce que vous obtenez
+
+- **Des alertes là où vous êtes déjà** : e-mail, Discord, Slack, Telegram et webhooks.
+- **Des pages de statut** : publiques, avec incidents et maintenances planifiées ; sur votre propre domaine avec une offre payante.
+- **Badges et widgets** : affichez votre statut en direct sur votre site ou dans un README.
+- **Moins de fausses alertes** : un échec est revérifié avant de prévenir qui que ce soit.
+- **Des diagnostics** : quand une vérification échoue, NorminUp montre pourquoi (code de réponse, détails du certificat,
+  chaîne de redirections, temps de réponse), pas seulement « hors ligne ».
+
+### Pourquoi NorminUp
+
+- **Les vérifications partent de France**, au plus près des utilisateurs français et européens.
+- **Conçu et exploité par un seul développeur** : vous parlez à celui qui a écrit le code.
 
 ---
 
-## 3. Diagnostics
-En cas d'incident, NorminUp ne se contente pas de signaler la panne, il l'analyse en profondeur :
-*   **Audit d'Intégrité MD5** : Détection des "Shadow Hacks" en comparant l'empreinte de la page avec les états précédents.
-*   **Audit de Chaîne SSL** : Analyse complète du certificat, de l'émetteur et des dates de validité.
-*   **Trace de Redirections** : Audit complet des chaînes de redirection (jusqu'à 5 niveaux) pour détecter les boucles infinies.
-*   **Security Header Scoring** : Évaluation en temps réel des headers HSTS, CSP, X-Frame-Options et XSS-Protection.
-
----
-
-## 4. Résilience Edge & P2P
-Une architecture distribuée unique pour une fiabilité sans faille :
-- **Consensus Distribué** : Les agents Edge communiquent entre eux via le protocole **Gossip** pour confirmer une panne depuis plusieurs points géographiques (évite les faux positifs).
-- **Survival Mode** : Si le serveur maître est injoignable, les agents passent en autonomie totale pour envoyer les alertes directement via SMTP, Slack ou Discord.
-- **Edge Analytics** : Mise en tampon locale des métriques en cas de déconnexion réseau momentanée.
-
----
-
-## 5. Infrastructure & Extension
-- **Dynamic SSL (Caddy Ask)** : Gestion automatisée des certificats SSL pour les domaines personnalisés (CNAME).
-- **Self-Healing Docker** : Automatisation des remédiations (restart de conteneurs) via l'API Dockerode.
-- **Public API & Reference** : Documentation complète pour l'intégration programmatique des services de monitoring.
-
----
-
-<p align="center">
-  <b>NorminUp SaaS</b> • L'excellence dans la résilience infrastructurelle. <br>
-  <i>© 2026. Tous droits réservés.</i>
-</p>
+Le code n'est pas open source ; cette organisation héberge les dépôts privés du projet.
+Questions ou retours : [norminup.fr](https://norminup.fr).
